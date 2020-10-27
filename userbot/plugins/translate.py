@@ -27,8 +27,7 @@ async def _(event):
         lan, text = input_str.split("|")
     else:
         await edit_or_reply(
-            event, "`.tr LanguageCode` Tərcümə ediləcək mesajı göstərin."
-        )
+            event, "`.tr LanguageCode` Tərcümə ediləcək mesajı göstərin.")
         return
     text = emoji.demojize(text.strip())
     lan = lan.strip()
@@ -41,9 +40,7 @@ async def _(event):
         output_str = """**Dark UserBot İlə Tərcümə Edildi.**
          Source **( {} )**
          Translation **( {} )**
-         {}""".format(
-            translated.src, lan, after_tr_text
-        )
+         {}""".format(translated.src, lan, after_tr_text)
         await edit_or_reply(event, output_str)
     except Exception as exc:
         await edit_or_reply(event, str(exc))

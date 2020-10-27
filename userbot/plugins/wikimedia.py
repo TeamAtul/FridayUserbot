@@ -41,9 +41,7 @@ async def _(event):
         user: [{}]({})
         mime: {}
         mediatype: {}
-        """.format(
-            pageid, title, timestamp, user, descriptionurl, mime, mediatype
-        )
-    await wowsosmart.edit(
-        "**Axtarış**: {} \n\n **Nəticə**: {}".format(input_str, result)
-    )
+        """.format(pageid, title, timestamp, user, descriptionurl, mime,
+                   mediatype)
+    await wowsosmart.edit("**Axtarış**: {} \n\n **Nəticə**: {}".format(
+        input_str, result))

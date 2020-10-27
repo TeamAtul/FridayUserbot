@@ -22,7 +22,8 @@ async def load(event):
         load_module(shortname)
         await event.edit(f"Uğurla yükləndi: {shortname}")
     except Exception as e:
-        await event.edit(f"Aşağıdakı səhvə görə {shortname} yüklənmədi.\n{str(e)}")
+        await event.edit(
+            f"Aşağıdakı səhvə görə {shortname} yüklənmədi.\n{str(e)}")
 
 
 @borg.on(admin_cmd(pattern="unload ?(.*)", outgoing=True))
@@ -34,6 +35,5 @@ async def unload(event):
         remove_plugin(shortname)
         await event.edit(f"**Uğurla silindi!** {shortname}")
     except Exception as e:
-        await event.edit(
-            "**Uğurla silindi!** {shortname}\n{}".format(shortname, str(e))
-        )
+        await event.edit("**Uğurla silindi!** {shortname}\n{}".format(
+            shortname, str(e)))

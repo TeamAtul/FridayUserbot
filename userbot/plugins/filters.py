@@ -25,7 +25,6 @@ TYPE_TEXT = 0
 TYPE_PHOTO = 1
 TYPE_DOCUMENT = 2
 
-
 global last_triggered_filters
 last_triggered_filters = {}  # pylint:disable=E0602
 

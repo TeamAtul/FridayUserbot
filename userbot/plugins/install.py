@@ -22,17 +22,13 @@ async def install(event):
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
                     "userbot/plugins/",  # pylint:disable=E0602
-                )
-            )
+                ))
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)
                 shortname = path1.stem
                 load_module(shortname.replace(".py", ""))
-                await event.edit(
-                    "Dark Plugin: `{}` yükləndi.".format(
-                        os.path.basename(downloaded_file_name)
-                    )
-                )
+                await event.edit("Dark Plugin: `{}` yükləndi.".format(
+                    os.path.basename(downloaded_file_name)))
             else:
                 os.remove(downloaded_file_name)
                 await event.edit("Xəta! Bu plugin yüklüdür!.")

@@ -7,7 +7,6 @@ from userbot.utils import admin_cmd
 
 logger = logging.getLogger(__name__)
 
-
 if 1 == 1:
 
     name = "Profil Şəkilləri"
@@ -16,7 +15,6 @@ if 1 == 1:
 
     @borg.on(admin_cmd(pattern="foto(.*)"))
     async def potocmd(event):
-
         """Göstərdiyiniz şəxsin profil şəklini alma, kanal vəya qrupda"""
 
         id = "".join(event.raw_text.split(maxsplit=2)[1:])

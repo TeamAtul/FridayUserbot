@@ -38,10 +38,12 @@ async def startmute(event):
         elif private is True:
             userid = event.chat_id
         else:
-            return await event.edit("Xahiş edirəm bir istifadəçiyə cavab verin.")
+            return await event.edit(
+                "Xahiş edirəm bir istifadəçiyə cavab verin.")
         chat_id = event.chat_id
         chat = await event.get_chat()
-        if "admin_rights" in vars(chat) and vars(chat)["admin_icazəsi"] is not None:
+        if "admin_rights" in vars(
+                chat) and vars(chat)["admin_icazəsi"] is not None:
             if chat.admin_rights.delete_messages is True:
                 pass
             else:
@@ -53,7 +55,8 @@ async def startmute(event):
         else:
             return await event.edit("`Mesajlarınızı silmək icazən yoxdu!  ")
         if is_muted(userid, chat_id):
-            return await event.edit("Bu istifadəçi artıq bu söhbətdə səssizdir.")
+            return await event.edit(
+                "Bu istifadəçi artıq bu söhbətdə səssizdir.")
         try:
             mute(userid, chat_id)
         except Exception as e:
@@ -82,10 +85,12 @@ async def endmute(event):
         elif private is True:
             userid = event.chat_id
         else:
-            return await event.edit("Xahiş edirəm bir istifadəçiyə cavab verin..")
+            return await event.edit(
+                "Xahiş edirəm bir istifadəçiyə cavab verin..")
         chat_id = event.chat_id
         if not is_muted(userid, chat_id):
-            return await event.edit("**Bu istifadəçi bu söhbətdə səssiz deyil** ")
+            return await event.edit(
+                "**Bu istifadəçi bu söhbətdə səssiz deyil** ")
         try:
             unmute(userid, chat_id)
         except Exception as e:
@@ -114,10 +119,12 @@ async def startmute(event):
         elif private is True:
             userid = event.chat_id
         else:
-            return await event.edit("Xahiş edirəm bir istifadəçiyə cavab verin.")
+            return await event.edit(
+                "Xahiş edirəm bir istifadəçiyə cavab verin.")
         chat_id = event.chat_id
         chat = await event.get_chat()
-        if "admin_rights" in vars(chat) and vars(chat)["admin_icazəsi"] is not None:
+        if "admin_rights" in vars(
+                chat) and vars(chat)["admin_icazəsi"] is not None:
             if chat.admin_rights.delete_messages is True:
                 pass
             else:
@@ -129,7 +136,8 @@ async def startmute(event):
         else:
             return await event.edit("Mesajlarınızı silmək icazəm yoxdu! ")
         if is_muted(userid, chat_id):
-            return await event.edit("Bu istifadəçi artıq bu söhbətdə səssizdir.")
+            return await event.edit(
+                "Bu istifadəçi artıq bu söhbətdə səssizdir.")
         try:
             mute(userid, chat_id)
         except Exception as e:
@@ -158,10 +166,12 @@ async def endmute(event):
         elif private is True:
             userid = event.chat_id
         else:
-            return await event.edit("Xahiş edirəm bir istifadəçiyə cavab verin..")
+            return await event.edit(
+                "Xahiş edirəm bir istifadəçiyə cavab verin..")
         chat_id = event.chat_id
         if not is_muted(userid, chat_id):
-            return await event.edit("**Bu istifadəçi bu söhbətdə səssiz deyil**")
+            return await event.edit(
+                "**Bu istifadəçi bu söhbətdə səssiz deyil**")
         try:
             unmute(userid, chat_id)
         except Exception as e:

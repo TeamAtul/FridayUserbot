@@ -1,7 +1,6 @@
 """Qarşı Şəxsin Profil Şəklini Və
 Başqa Məlumatlarını Şəxsiləşdirin.
 Kod: .clone @username"""
-
 import asyncio
 import html
 

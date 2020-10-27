@@ -1,8 +1,6 @@
 """Kod: `.foto`  **Qarşı Şəxsin Bütün Profil Şəklini Atır**
 \n Kod: `.foto (nömrə)`  **İstənilən Nömrəli Şəkli Atır** .
 """
-
-
 import logging
 
 from userbot.utils import admin_cmd

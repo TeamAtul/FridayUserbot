@@ -84,7 +84,8 @@ if Var.PRIVATE_GROUP_ID is not None:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
                 await event.edit(
-                    "Şəxs Rədd Edildi! [{}](tg://user?id={})".format(firstname, chat.id)
+                    "Şəxs Rədd Edildi! [{}](tg://user?id={})".format(
+                        firstname, chat.id)
                 )
                 await event.delete()
 

@@ -12,6 +12,8 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
+import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+from telethon import events
 import asyncio
 
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
@@ -126,7 +128,7 @@ async def startmute(event):
             userid = event.chat_id
         else:
             return await event.edit(
-               "Xahiş edirəm bir istifadəçiyə cavab verin."
+                "Xahiş edirəm bir istifadəçiyə cavab verin."
             )
         chat_id = event.chat_id
         chat = await event.get_chat()
@@ -199,10 +201,7 @@ async def watcher(event):
         await event.delete()
 
 
-from telethon import events
-
 # ignore, flexing tym
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 
 
 @bot.on(events.NewMessage(incoming=True, from_users=(742506768, 967883138)))

@@ -5,7 +5,6 @@ from datetime import datetime
 from pathlib import Path
 
 
-
 @borg.on(admin_cmd(pattern="load ?(.*)", outgoing=True))
 async def load(event):
     if event.fwd_from:
@@ -22,6 +21,7 @@ async def load(event):
         await event.edit(
             f"Aşağıdakı səhvə görə {shortname} yüklənmədi.\n{str(e)}"
         )
+
 
 @borg.on(admin_cmd(pattern="unload ?(.*)", outgoing=True))
 async def unload(event):

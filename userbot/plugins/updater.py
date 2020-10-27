@@ -21,7 +21,9 @@ IS_SELECTED_DIFFERENT_BRANCH = (
 OFFICIAL_UPSTREAM_REPO = "https://github.com/DarkUserBot-Team/DarkRoot"
 BOT_IS_UP_TO_DATE = "`UserBot Güncəldir.\nTəşəkkür Edirik.`"
 NEW_BOT_UP_DATE_FOUND = (
-    "yeni güncəlləmə tapıldı: {branch_name}\n" "changelog: \n\n{changelog}\n" "güncəllənir ..."
+    "yeni güncəlləmə tapıldı: {branch_name}\n"
+    "changelog: \n\n{changelog}\n"
+    "güncəllənir ..."
 )
 NEW_UP_DATE_FOUND = "yeni güncəlləmə tapıldı: {branch_name}\n" "`güncəllənir ...`"
 REPO_REMOTE_NAME = "temponame"

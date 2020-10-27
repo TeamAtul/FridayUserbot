@@ -33,7 +33,9 @@ async def _(event):
             await bot.forward_messages(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await event.reply("```Xahiş edirəm @QuotLyBot-un blokundan çıxartın və yenidən cəhd edin```")
+            await event.reply(
+                "```Xahiş edirəm @QuotLyBot-un blokundan çıxartın və yenidən cəhd edin```"
+            )
             return
         if response.text.startswith("Hi!"):
             await event.edit(

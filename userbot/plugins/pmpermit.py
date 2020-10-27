@@ -24,7 +24,9 @@ DEFAULTUSER = (
 CUSTOM_MIDDLE_PMP = (
     str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "Dark Təhlükəsizlik Sistemi"
 )
-USER_BOT_WARN_ZERO = "Spam mesaji göndərdiyinizə gorə bloklandınız.Sahibimi narahat etməyin!"
+USER_BOT_WARN_ZERO = (
+    "Spam mesaji göndərdiyinizə gorə bloklandınız.Sahibimi narahat etməyin!"
+)
 USER_BOT_NO_WARN = (
     "**Dark Təhlükəsizlik Sistemi ⚠️**\n\n"
     f"`Mənim Sahibim {DEFAULTUSER} Hal-Hazırda burda deyil!`"
@@ -84,8 +86,7 @@ if Var.PRIVATE_GROUP_ID is not None:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
                 await event.edit(
-                    "Şəxs Rədd Edildi! [{}](tg://user?id={})".format(
-                        firstname, chat.id)
+                    "Şəxs Rədd Edildi! [{}](tg://user?id={})".format(firstname, chat.id)
                 )
                 await event.delete()
 

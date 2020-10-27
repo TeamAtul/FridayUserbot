@@ -72,7 +72,9 @@ async def _(event):
             voice_note=True,
         )
         os.remove(required_file_name)
-        await event.edit("Proses {} ({}) {} saniyədə hazır oldu!".format(text[0:97], lan, ms))
+        await event.edit(
+            "Proses {} ({}) {} saniyədə hazır oldu!".format(text[0:97], lan, ms)
+        )
         await asyncio.sleep(5)
         await event.delete()
     except Exception as e:

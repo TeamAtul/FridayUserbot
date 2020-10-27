@@ -81,9 +81,7 @@ async def delete_it(delme):
             await msg_src.delete()
             await delme.delete()
             if BOTLOG:
-                await delme.client.send_message(
-                    BOTLOG_CHATID, "Mesaj Uğurla Silindi!"
-                )
+                await delme.client.send_message(BOTLOG_CHATID, "Mesaj Uğurla Silindi!")
         except rpcbaseerrors.BadRequestError:
             if BOTLOG:
                 await delme.client.send_message(

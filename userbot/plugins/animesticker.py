@@ -37,9 +37,7 @@ async def waifu(animu):
         if animu.is_reply:
             text = (await animu.get_reply_message()).message
         else:
-            await edit_or_reply(
-                animu, "`Heç bir məqalə yazmamısan, Waifu gedəcək.`"
-            )
+            await edit_or_reply(animu, "`Heç bir məqalə yazmamısan, Waifu gedəcək.`")
             return
     animus = [1, 3, 7, 9, 13, 22, 34, 35, 36, 37, 43, 44, 45, 52, 53, 55]
     sticcers = await bot.inline_query(

@@ -3,6 +3,7 @@ import asyncio
 import os
 from datetime import datetime
 from pathlib import Path
+
 DELETE_TIMEOUT = 5
 
 
@@ -29,9 +30,7 @@ async def install(event):
                 )
             else:
                 os.remove(downloaded_file_name)
-                await event.edit(
-                    "Xəta! Bu plugin yüklüdür!."
-                )
+                await event.edit("Xəta! Bu plugin yüklüdür!.")
         except Exception as e:  # pylint:disable=C0103,W0703
             await event.edit(str(e))
             os.remove(downloaded_file_name)

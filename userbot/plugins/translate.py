@@ -25,7 +25,9 @@ async def _(event):
     elif "|" in input_str:
         lan, text = input_str.split("|")
     else:
-        await edit_or_reply(event, "`.tr LanguageCode` Tərcümə ediləcək mesajı göstərin.")
+        await edit_or_reply(
+            event, "`.tr LanguageCode` Tərcümə ediləcək mesajı göstərin."
+        )
         return
     text = emoji.demojize(text.strip())
     lan = lan.strip()

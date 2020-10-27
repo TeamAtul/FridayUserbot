@@ -30,9 +30,7 @@ from userbot.utils import admin_cmd, errors_handler, register, sudo_cmd
 PP_TOO_SMOL = "`Şəkil çox kiçikdir`"
 PP_ERROR = "`Təsvir işlənərkən uğursuzluq oldu`"
 NO_ADMIN = "`Mən admin deyiləm!`"
-NO_PERM = (
-    "`Mənim yetərli icazəm yoxdur! Bu çox azdır.`"
-)
+NO_PERM = "`Mənim yetərli icazəm yoxdur! Bu çox azdır.`"
 NO_SQL = "`Qeyri-SQL rejimində işləyir!`"
 
 CHAT_PP_CHANGED = "`Söhbət şəkli dəyişdirildi`"

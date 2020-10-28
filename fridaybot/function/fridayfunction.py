@@ -9,6 +9,8 @@ import asyncio
 from typing import Tuple, List, Optional
 
 # String Finder
+
+
 def stark_finder(s, first, last):
     try:
         start = s.index(first) + len(first)
@@ -21,4 +23,3 @@ def stark_finder(s, first, last):
 # Id Generator
 def id_generator(size=64, chars=string.ascii_uppercase + string.digits):
     return "".join(random.choice(chars) for _ in range(size))
-

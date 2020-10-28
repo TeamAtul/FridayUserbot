@@ -38,13 +38,13 @@ Best User Bot To Manage Your Telegram Account
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/starkGang/Fridayfridayfridayuserbot
+git clone https://github.com/starkGang/Fridayfridayfridayfridayuserbot
 cd FridayUserbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m fridayfridayuserbot
+python3 -m fridayfridayfridayuserbot
 ```
 
 An example `local_config.py` file could be:
@@ -65,7 +65,7 @@ class Development(Var):
 ### UniBorg Configuration
 
 
-The UniBorg Config is situated in `fridayfridayuserbot/Configs.py`.
+The UniBorg Config is situated in `fridayfridayfridayuserbot/Configs.py`.
 
 **Heroku Configuration**
 Simply just leave the Config as it is.
@@ -79,7 +79,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
     - `APP_ID`:   You can get this value from https://my.telegram.org
     - `API_HASH`:   You can get this value from https://my.telegram.org
-- The fridayfridayuserbot will not work without setting the mandatory vars.
+- The fridayfridayfridayuserbot will not work without setting the mandatory vars.
 
 ## Credits 
 ```- Thanks To All Contributers For This Project 

@@ -14,8 +14,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
-from fridayfridayuserbot import CHROME_DRIVER, GOOGLE_CHROME_BIN
-from fridayfridayuserbot.utils import register
+from fridayfridayfridayuserbot import CHROME_DRIVER, GOOGLE_CHROME_BIN
+from fridayfridayfridayuserbot.utils import register
 
 CARBONLANG = "auto"
 LANG = "en"

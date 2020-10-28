@@ -5,8 +5,8 @@ import os
 import lyricsgenius
 from tswift import Song
 
-from fridayfridayuserbot import CMD_HELP
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot import CMD_HELP
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 GENIUS = os.environ.get("GENIUS_API_TOKEN", None)
 

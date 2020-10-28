@@ -5,7 +5,7 @@
 
 import requests
 
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 from var import Var
 
 newslog = Var.NEWS_CHANNEL_ID

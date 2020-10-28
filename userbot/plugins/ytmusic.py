@@ -2,9 +2,9 @@ from youtubesearchpython import SearchVideos
 from pytube import YouTube
 import os
 import wget
-from fridayfridayuserbot.Configs import Config
+from fridayfridayfridayuserbot.Configs import Config
 import asyncio
-from fridayfridayuserbot.utils import sudo_cmd, friday_on_cmd, edit_or_reply
+from fridayfridayfridayuserbot.utils import sudo_cmd, friday_on_cmd, edit_or_reply
 
 @friday.on(friday_on_cmd(pattern="ytmusic ?(.*)"))
 @friday.on(sudo_cmd(pattern="ytmusic ?(.*)", allow_sudo=True))

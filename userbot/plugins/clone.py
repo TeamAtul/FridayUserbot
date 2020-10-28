@@ -9,7 +9,7 @@ from telethon.tl import functions
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd(pattern="clone ?(.*)"))

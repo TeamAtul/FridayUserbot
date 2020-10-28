@@ -4,8 +4,8 @@ from collections import deque
 
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-from fridayfridayuserbot import CMD_HELP, bot
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot import CMD_HELP, bot
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("leave$"))
@@ -117,7 +117,7 @@ CMD_HELP.update({"fp": "Send face palm emoji."})
 CMD_HELP.update({"moon": "Bot will send a cool moon animation."})
 CMD_HELP.update({"clock": "Bot will send a cool clock animation."})
 CMD_HELP.update({"readme": "Reedme."})
-CMD_HELP.update({"source": "Gives the source of your fridayfridayuserbot"})
+CMD_HELP.update({"source": "Gives the source of your fridayfridayfridayuserbot"})
 CMD_HELP.update({"myusernames": "List of Usernames owned by you."})
 CMD_HELP.update({"oof": "Same as ;__; but ooof"})
 CMD_HELP.update({"earth": "Sends Kensar Earth animation"})

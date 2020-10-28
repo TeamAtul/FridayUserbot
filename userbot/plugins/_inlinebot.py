@@ -7,9 +7,9 @@ from telethon import events
 from telethon import functions
 from telethon.tl.functions.users import GetFullUserRequest
 import os
-from fridayfridayuserbot import ALIVE_NAME
-from fridayfridayuserbot import CMD_LIST
-from fridayfridayuserbot.plugins import inlinestats
+from fridayfridayfridayuserbot import ALIVE_NAME
+from fridayfridayfridayuserbot import CMD_LIST
+from fridayfridayfridayuserbot.plugins import inlinestats
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
     WARN_PIC = "https://telegra.ph/file/53aed76a90e38779161b1.jpg"

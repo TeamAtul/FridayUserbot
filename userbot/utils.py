@@ -5,8 +5,8 @@ from pathlib import Path
 
 from telethon import events
 
-from fridayfridayuserbot import CMD_LIST, LOAD_PLUG, SUDO_LIST, bot
-from fridayfridayuserbot.Configs import Config
+from fridayfridayfridayuserbot import CMD_LIST, LOAD_PLUG, SUDO_LIST, bot
+from fridayfridayfridayuserbot.Configs import Config
 from var import Var
 
 cmdhandler = Config.COMMAND_HAND_LER
@@ -87,10 +87,10 @@ def load_module(shortname):
         import sys
         from pathlib import Path
 
-        import fridayfridayuserbot.utils
+        import fridayfridayfridayuserbot.utils
 
-        path = Path(f"fridayfridayuserbot/plugins/{shortname}.py")
-        name = "fridayfridayuserbot.plugins.{}".format(shortname)
+        path = Path(f"fridayfridayfridayuserbot/plugins/{shortname}.py")
+        name = "fridayfridayfridayuserbot.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -100,10 +100,10 @@ def load_module(shortname):
         import sys
         from pathlib import Path
 
-        import fridayfridayuserbot.utils
+        import fridayfridayfridayuserbot.utils
 
-        path = Path(f"fridayfridayuserbot/plugins/{shortname}.py")
-        name = "fridayfridayuserbot.plugins.{}".format(shortname)
+        path = Path(f"fridayfridayfridayuserbot/plugins/{shortname}.py")
+        name = "fridayfridayfridayuserbot.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.bot = bot
@@ -112,16 +112,16 @@ def load_module(shortname):
         mod.command = command
         mod.logger = logging.getLogger(shortname)
         # support for uniborg
-        sys.modules["uniborg.util"] = fridayfridayuserbot.utils
-        sys.modules["friday.util"] = fridayfridayuserbot.utils
+        sys.modules["uniborg.util"] = fridayfridayfridayuserbot.utils
+        sys.modules["friday.util"] = fridayfridayfridayuserbot.utils
         mod.Config = Config
         mod.borg = bot
         mod.friday = bot
         # support for paperplaneextended
-        sys.modules["fridayfridayuserbot.events"] = fridayfridayuserbot.utils
+        sys.modules["fridayfridayfridayuserbot.events"] = fridayfridayfridayuserbot.utils
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["fridayfridayuserbot.plugins." + shortname] = mod
+        sys.modules["fridayfridayfridayuserbot.plugins." + shortname] = mod
         print("Successfully imported " + shortname)
 
 
@@ -133,7 +133,7 @@ def remove_plugin(shortname):
             del LOAD_PLUG[shortname]
 
         except:
-            name = f"fridayfridayuserbot.plugins.{shortname}"
+            name = f"fridayfridayfridayuserbot.plugins.{shortname}"
 
             for i in reversed(range(len(bot._event_builders))):
                 ev, cb = bot._event_builders[i]
@@ -232,7 +232,7 @@ def friday_on_cmd(pattern=None, **args):
 
 
 """ Userbot module for managing events.
- One of the main components of the fridayfridayuserbot. """
+ One of the main components of the fridayfridayfridayuserbot. """
 
 import asyncio
 import datetime
@@ -243,7 +243,7 @@ from time import gmtime, strftime
 
 from telethon import events
 
-from fridayfridayuserbot import bot
+from fridayfridayfridayuserbot import bot
 
 
 def register(**args):
@@ -472,10 +472,10 @@ def start_assistant(shortname):
         import sys
         from pathlib import Path
 
-        import fridayfridayuserbot.utils
+        import fridayfridayfridayuserbot.utils
 
-        path = Path(f"fridayfridayuserbot/plugins/assistant/{shortname}.py")
-        name = "fridayfridayuserbot.plugins.assistant.{}".format(shortname)
+        path = Path(f"fridayfridayfridayuserbot/plugins/assistant/{shortname}.py")
+        name = "fridayfridayfridayuserbot.plugins.assistant.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -486,13 +486,13 @@ def start_assistant(shortname):
         import sys
         from pathlib import Path
 
-        import fridayfridayuserbot.utils
+        import fridayfridayfridayuserbot.utils
 
-        path = Path(f"fridayfridayuserbot/plugins/assistant/{shortname}.py")
-        name = "fridayfridayuserbot.plugins.assistant.{}".format(shortname)
+        path = Path(f"fridayfridayfridayuserbot/plugins/assistant/{shortname}.py")
+        name = "fridayfridayfridayuserbot.plugins.assistant.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
-        sys.modules["fridayfridayuserbot.plugins.assistant" + shortname] = mod
+        sys.modules["fridayfridayfridayuserbot.plugins.assistant" + shortname] = mod
         print("Assistant Has imported " + shortname)

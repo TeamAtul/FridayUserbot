@@ -1,6 +1,6 @@
 from telethon.utils import pack_bot_file_id
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
-from fridayfridayuserbot import bot
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot import bot
 from telethon import events, custom, Button
 from telethon.tl.types import (
     Channel,
@@ -14,28 +14,28 @@ from googletrans import Translator
 import re
 import io
 from math import ceil
-from fridayfridayuserbot.plugins import inlinestats
+from fridayfridayfridayuserbot.plugins import inlinestats
 from telethon import custom, events, Button
-from fridayfridayuserbot import CMD_LIST
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot import CMD_LIST
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 from telethon.utils import get_display_name
-from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
-from fridayfridayuserbot.Configs import Config
+from fridayfridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayfridayuserbot.Configs import Config
 from telethon import events
 from datetime import datetime
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 import time
 from telethon.tl.functions.photos import GetUserPhotosRequest
 from telethon.tl.functions.users import GetFullUserRequest
-from fridayfridayuserbot import Lastupdate, bot
-from fridayfridayuserbot.plugins.sql_helper.botusers_sql import add_me_in_db, his_userid
-from fridayfridayuserbot.plugins.sql_helper.idadder_sql import add_usersid_in_db, get_all_users
+from fridayfridayfridayuserbot import Lastupdate, bot
+from fridayfridayfridayuserbot.plugins.sql_helper.botusers_sql import add_me_in_db, his_userid
+from fridayfridayfridayuserbot.plugins.sql_helper.idadder_sql import add_usersid_in_db, get_all_users
 import time
 from uniborg.util import friday_on_cmd, sudo_cmd
-from fridayfridayuserbot import ALIVE_NAME
+from fridayfridayfridayuserbot import ALIVE_NAME
 from datetime import datetime
-from fridayfridayuserbot import Lastupdate
-from fridayfridayuserbot.plugins import currentversion
+from fridayfridayfridayuserbot import Lastupdate
+from fridayfridayfridayuserbot.plugins import currentversion
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/22535f8051a58af113586.jpg"

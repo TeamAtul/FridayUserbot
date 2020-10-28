@@ -10,8 +10,8 @@ from subprocess import run as runapp
 
 import pybase64
 
-from fridayfridayuserbot import CMD_HELP
-from fridayfridayuserbot.events import errors_handler, register
+from fridayfridayfridayuserbot import CMD_HELP
+from fridayfridayfridayuserbot.events import errors_handler, register
 
 
 @register(outgoing=True, pattern="^.hash (.*)")

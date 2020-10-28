@@ -7,7 +7,7 @@ import time
 
 import aiohttp
 
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd(pattern="weathers (.*)"))

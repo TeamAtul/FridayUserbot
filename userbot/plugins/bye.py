@@ -8,7 +8,7 @@ import time
 
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 @friday.on(friday_on_cmd("bye", outgoing=True))

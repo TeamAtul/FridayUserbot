@@ -9,24 +9,24 @@ from telethon.tl.types import (
 
 import emoji
 from googletrans import Translator
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 from telethon.utils import get_display_name
-from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
-from fridayfridayuserbot.Configs import Config
+from fridayfridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayfridayuserbot.Configs import Config
 from telethon import events
 from datetime import datetime
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 import time
-from fridayfridayuserbot import Lastupdate, bot
+from fridayfridayfridayuserbot import Lastupdate, bot
 
 
-from fridayfridayuserbot.plugins.sql_helper.snips_sql import (
+from fridayfridayfridayuserbot.plugins.sql_helper.snips_sql import (
     add_snip,
     get_all_snips,
     get_snips,
     remove_snip,
 )
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 TYPE_TEXT = 0
 TYPE_PHOTO = 1

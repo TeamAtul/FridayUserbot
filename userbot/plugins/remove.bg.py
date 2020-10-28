@@ -21,7 +21,7 @@ from datetime import datetime
 
 import requests
 
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("rmbg ?(.*)"))

@@ -2,7 +2,7 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import MessageIdInvalidError
 
-from fridayfridayuserbot.utils import friday_on_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd(pattern="dump ?(.*)"))

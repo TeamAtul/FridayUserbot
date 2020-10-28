@@ -1,4 +1,4 @@
-from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
+from fridayfridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
 from var import Var
 
 

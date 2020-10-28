@@ -22,8 +22,8 @@ from telethon.tl.types import (
     MessageMediaPhoto,
 )
 
-from fridayfridayuserbot import ALIVE_NAME
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot import ALIVE_NAME
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Who is this"
 FILLED_UP_DADDY = "Invalid pack selected."

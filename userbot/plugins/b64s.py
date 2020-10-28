@@ -1,5 +1,5 @@
 import base64
-from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
+from fridayfridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
 
 
 @friday.on(friday_on_cmd(pattern="bencode ?(.*)"))

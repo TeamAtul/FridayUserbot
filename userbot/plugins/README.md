@@ -1,8 +1,8 @@
 ## FRIDAY USERBOT
 # EXAMPLE CODE !
 ```python3
-from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
-from fridayfridayuserbot.Configs import Config
+from fridayfridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
+from fridayfridayfridayuserbot.Configs import Config
 @friday.on(friday_on_cmd(pattern="alive"))
 @friday.on(sudo_cmd(pattern="alive", allow_sudo=True))
 async def hello_world(event):

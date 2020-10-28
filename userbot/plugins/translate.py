@@ -6,7 +6,7 @@ Available Commands:
 import emoji
 from googletrans import Translator
 
-from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 @friday.on(friday_on_cmd("tr ?(.*)"))

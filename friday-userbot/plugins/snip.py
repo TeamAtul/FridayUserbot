@@ -9,13 +9,13 @@ Available Commands:
 from telethon import events, utils
 from telethon.tl import types
 
-from userbot.plugins.sql_helper.snips_sql import (
+from friday-userbot.plugins.sql_helper.snips_sql import (
     add_snip,
     get_all_snips,
     get_snips,
     remove_snip,
 )
-from userbot.utils import friday_on_cmd
+from friday-userbot.utils import friday_on_cmd
 
 TYPE_TEXT = 0
 TYPE_PHOTO = 1

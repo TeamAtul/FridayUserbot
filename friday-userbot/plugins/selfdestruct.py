@@ -7,7 +7,7 @@
 
 import time
 
-from userbot.utils import friday_on_cmd
+from friday-userbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("sd", outgoing=True))

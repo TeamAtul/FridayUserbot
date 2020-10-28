@@ -7,7 +7,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from userbot.utils import friday_on_cmd
+from friday-userbot.utils import friday_on_cmd
 
 COLLECTION_STRINGZ = [
     "star-wars-wallpaper-1080p",

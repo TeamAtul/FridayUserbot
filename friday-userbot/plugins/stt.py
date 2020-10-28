@@ -5,7 +5,7 @@ from datetime import datetime
 
 import requests
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd(pattern="stt (.*)"))

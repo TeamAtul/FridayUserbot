@@ -3,8 +3,8 @@
 import random
 import re
 
-from friday-userbot import CMD_HELP, bot
-from friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from friday-friday-userbot import CMD_HELP, bot
+from friday-friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(
     "["

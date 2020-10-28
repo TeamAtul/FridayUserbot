@@ -1,6 +1,6 @@
 from sqlalchemy import Column, LargeBinary, Numeric, String, UnicodeText
 
-from friday-userbot.plugins.sql_helper import BASE, SESSION
+from friday-friday-userbot.plugins.sql_helper import BASE, SESSION
 
 
 class Filters(BASE):

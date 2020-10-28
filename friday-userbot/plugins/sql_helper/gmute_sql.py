@@ -1,5 +1,5 @@
 try:
-    from friday-userbot.plugins.sql_helper import BASE, SESSION
+    from friday-friday-userbot.plugins.sql_helper import BASE, SESSION
 except ImportError:
     raise Exception("Hello!")
 

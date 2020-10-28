@@ -3,8 +3,8 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from friday-userbot import bot
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot import bot
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 # @register(outgoing=True, pattern="^.q(?: |$)(.*)")

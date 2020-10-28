@@ -1,5 +1,5 @@
-from friday-userbot import SUDO_LIST
-from friday-userbot.utils import sudo_cmd, edit_or_reply
+from friday-friday-userbot import SUDO_LIST
+from friday-friday-userbot.utils import sudo_cmd, edit_or_reply
 
 @friday.on(sudo_cmd(pattern="help ?(.*)", allow_sudo=True))
 async def _(event):

@@ -1,6 +1,6 @@
 import asyncio
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("gangasta ?(.*)"))

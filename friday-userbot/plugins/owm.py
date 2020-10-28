@@ -13,9 +13,9 @@ from pytz import country_names as c_n
 from pytz import country_timezones as c_tz
 from pytz import timezone as tz
 
-from friday-userbot import CMD_HELP
-from friday-userbot import OPEN_WEATHER_MAP_APPID as OWM_API
-from friday-userbot.events import errors_handler, register
+from friday-friday-userbot import CMD_HELP
+from friday-friday-userbot import OPEN_WEATHER_MAP_APPID as OWM_API
+from friday-friday-userbot.events import errors_handler, register
 
 # ===== CONSTANT =====
 DEFCITY = "Ahmedabad"
@@ -141,7 +141,7 @@ async def get_weather(weather):
 @register(outgoing=True, pattern="^.setcity(?: |$)(.*)")
 @errors_handler
 async def set_default_city(city):
-    """ For .ctime command, change the default friday-userbot country for date and time commands. """
+    """ For .ctime command, change the default friday-friday-userbot country for date and time commands. """
 
     if not OWM_API:
         await city.edit("`Get an API key from` https://openweathermap.org/ `first.`")

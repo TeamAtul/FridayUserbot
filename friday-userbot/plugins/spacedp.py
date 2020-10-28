@@ -7,7 +7,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 # Space lovers
 COLLECTION_STRINGS = [

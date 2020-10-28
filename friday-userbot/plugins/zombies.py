@@ -14,8 +14,8 @@ from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-from friday-userbot import CMD_HELP
-from friday-userbot.utils import friday_on_cmd, sudo_cmd
+from friday-friday-userbot import CMD_HELP
+from friday-friday-userbot.utils import friday_on_cmd, sudo_cmd
 
 #
 BOTLOG = True

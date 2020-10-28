@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 """
-   Heroku manager for your friday-userbot
+   Heroku manager for your friday-friday-userbot
 """
 
 import asyncio
@@ -11,7 +11,7 @@ import os
 import heroku3
 import requests
 
-from friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from friday-friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 Heroku = heroku3.from_key(Var.HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"

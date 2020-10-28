@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for managing events.
- One of the main components of the friday-userbot. """
+ One of the main components of the friday-friday-userbot. """
 
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
@@ -15,7 +15,7 @@ from traceback import format_exc
 
 from telethon import events
 
-from friday-userbot import LOGSPAMMER, PRIVATE_GROUP_ID, bot
+from friday-friday-userbot import LOGSPAMMER, PRIVATE_GROUP_ID, bot
 
 
 def register(**args):
@@ -128,8 +128,8 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.client.respond(
-                            "`Sorry, my friday-userbot has crashed.\
-                        \nThe error logs are stored in the friday-userbot's log chat.`"
+                            "`Sorry, my friday-friday-userbot has crashed.\
+                        \nThe error logs are stored in the friday-friday-userbot's log chat.`"
                         )
 
                     await check.client.send_file(send_to, "error.log", caption=text)

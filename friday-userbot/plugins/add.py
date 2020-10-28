@@ -3,14 +3,14 @@ Syntax: .invite <User(s)>"""
 
 from telethon import functions
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 """Invite the user(s) to the current chat
 Syntax: .invite <User(s)>"""
 
 from telethon import functions
 
-from friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from friday-friday-userbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 @friday.on(friday_on_cmd(pattern="invite ?(.*)"))

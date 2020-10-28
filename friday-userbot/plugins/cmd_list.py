@@ -1,6 +1,6 @@
 import asyncio
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 # @command(pattern="^.cmds", outgoing=True)
@@ -8,7 +8,7 @@ from friday-userbot.utils import friday_on_cmd
 async def install(event):
     if event.fwd_from:
         return
-    cmd = "ls friday-userbot/plugins"
+    cmd = "ls friday-friday-userbot/plugins"
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )

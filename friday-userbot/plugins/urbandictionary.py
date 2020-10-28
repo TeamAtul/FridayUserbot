@@ -5,7 +5,7 @@
 Syntax: .ud Query"""
 import urbandict
 
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("ud (.*)"))

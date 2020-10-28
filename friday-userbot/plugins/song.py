@@ -6,9 +6,9 @@ import io
 import asyncio
 import datetime
 import time
-from friday-userbot.utils import friday_on_cmd, sudo_cmd
-from friday-userbot.events import register 
-from friday-userbot import bot, CMD_HELP
+from friday-friday-userbot.utils import friday_on_cmd, sudo_cmd
+from friday-friday-userbot.events import register 
+from friday-friday-userbot import bot, CMD_HELP
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 import glob

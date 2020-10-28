@@ -9,8 +9,8 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from friday-userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from friday-userbot.utils import errors_handler, register
+from friday-friday-userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from friday-friday-userbot.utils import errors_handler, register
 
 
 @register(outgoing=True, pattern="^.purge$")

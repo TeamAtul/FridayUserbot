@@ -22,8 +22,8 @@ from telethon.tl.types import (
     MessageEntityMentionName,
 )
 
-from friday-userbot import CMD_HELP
-from friday-userbot.events import register
+from friday-friday-userbot import CMD_HELP
+from friday-friday-userbot.events import register
 
 
 def parse_arguments(message: str, valid: List[str]) -> (dict, str):

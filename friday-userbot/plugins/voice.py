@@ -9,8 +9,8 @@ from datetime import datetime
 
 from gtts import gTTS
 
-from friday-userbot import CMD_HELP
-from friday-userbot.utils import friday_on_cmd
+from friday-friday-userbot import CMD_HELP
+from friday-friday-userbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd(pattern="voice (.*)"))

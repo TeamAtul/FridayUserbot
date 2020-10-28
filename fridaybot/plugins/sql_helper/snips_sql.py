@@ -1,6 +1,10 @@
-from sqlalchemy import Column, LargeBinary, Numeric, UnicodeText
+from sqlalchemy import Column
+from sqlalchemy import LargeBinary
+from sqlalchemy import Numeric
+from sqlalchemy import UnicodeText
 
-from fridaybot.plugins.sql_helper import BASE, SESSION
+from fridaybot.plugins.sql_helper import BASE
+from fridaybot.plugins.sql_helper import SESSION
 
 
 class Snips(BASE):

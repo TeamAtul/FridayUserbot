@@ -5,17 +5,19 @@
 #
 """ Userbot module for managing events.
  One of the main components of the fridaybot. """
-
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
 from asyncio import subprocess as asyncsub
 from os import remove
-from time import gmtime, strftime
+from time import gmtime
+from time import strftime
 from traceback import format_exc
 
 from telethon import events
 
-from fridaybot import LOGSPAMMER, PRIVATE_GROUP_ID, bot
+from fridaybot import bot
+from fridaybot import LOGSPAMMER
+from fridaybot import PRIVATE_GROUP_ID
 
 
 def register(**args):

@@ -1,7 +1,9 @@
 """Get information about an user on GitHub
 Syntax: .github USERNAME"""
 import requests
-from userbot.utils import edit_or_reply, friday_on_cmd, sudo_cmd
+from userbot.utils import edit_or_reply
+from userbot.utils import friday_on_cmd
+from userbot.utils import sudo_cmd
 
 
 @borg.on(friday_on_cmd("github (.*)"))

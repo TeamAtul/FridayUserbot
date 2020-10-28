@@ -1,6 +1,8 @@
 import asyncio
 
-from fridaybot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
+from fridaybot.plugins.sql_helper.mute_sql import is_muted
+from fridaybot.plugins.sql_helper.mute_sql import mute
+from fridaybot.plugins.sql_helper.mute_sql import unmute
 
 
 @command(outgoing=True, pattern=r"^.gmute ?(\d+)?")
